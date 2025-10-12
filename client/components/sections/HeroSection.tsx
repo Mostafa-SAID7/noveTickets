@@ -39,9 +39,9 @@ export const HeroSection = () => {
               Book cinematic moments without the queue.
             </h1>
             <p className="max-w-xl text-base text-muted-foreground sm:text-lg">
-              Discover premieres as soon as they drop, reserve luxury seating, and
-              curate snack pairings in one seamless flow. Cinemaze makes movie
-              night a statement.
+              Discover premieres as soon as they drop, reserve luxury seating,
+              and curate snack pairings in one seamless flow. Cinemaze makes
+              movie night a statement.
             </p>
           </div>
           <div className="flex flex-col gap-4 sm:flex-row sm:items-center">
@@ -119,8 +119,8 @@ export const HeroSection = () => {
                               isSelected
                                 ? "border-brand-purple/70 bg-gradient-to-br from-brand-purple via-brand-magenta to-brand-aqua text-background shadow-glow"
                                 : isReserved
-                                ? "border-white/10 bg-white/10 text-muted-foreground/60"
-                                : "border-white/10 bg-white/5 text-foreground/80 hover:-translate-y-0.5 hover:border-brand-purple/40 hover:text-white",
+                                  ? "border-white/10 bg-white/10 text-muted-foreground/60"
+                                  : "border-white/10 bg-white/5 text-foreground/80 hover:-translate-y-0.5 hover:border-brand-purple/40 hover:text-white",
                             )}
                           >
                             {seat}
@@ -136,7 +136,9 @@ export const HeroSection = () => {
                   <span className="size-2 rounded-full bg-gradient-to-br from-brand-purple to-brand-magenta" />
                   Selected seats
                 </span>
-                <span className="font-semibold text-foreground">B4, B5, C4</span>
+                <span className="font-semibold text-foreground">
+                  B4, B5, C4
+                </span>
                 <span className="font-semibold text-brand-aqua">$68.00</span>
               </div>
             </div>

@@ -39,8 +39,8 @@ export const ExperienceSection = () => {
             Designed for the way you watch.
           </h2>
           <p className="mt-4 text-base text-muted-foreground">
-            From foyer to finale, Cinemaze orchestrates every touchpoint so you can
-            enter the story without distraction.
+            From foyer to finale, Cinemaze orchestrates every touchpoint so you
+            can enter the story without distraction.
           </p>
         </div>
 

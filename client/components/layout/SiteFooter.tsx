@@ -26,8 +26,8 @@ export const SiteFooter = () => {
             </div>
           </Link>
           <p className="max-w-sm text-sm text-muted-foreground">
-            Discover premieres the moment they launch, reserve luxury seating, and
-            curate your perfect film night in minutes.
+            Discover premieres the moment they launch, reserve luxury seating,
+            and curate your perfect film night in minutes.
           </p>
           <div className="flex items-center gap-4">
             <a
@@ -76,7 +76,9 @@ export const SiteFooter = () => {
         </div>
 
         <div className="space-y-5">
-          <p className="text-sm font-semibold text-foreground/80">Stay in the loop</p>
+          <p className="text-sm font-semibold text-foreground/80">
+            Stay in the loop
+          </p>
           <p className="text-sm text-muted-foreground">
             Join premiere alerts for surprise screenings, exclusive merch drops,
             and VIP lounge invitations.
@@ -104,7 +106,10 @@ export const SiteFooter = () => {
 
       <div className="border-t border-white/10 bg-background/60">
         <div className="container flex flex-col gap-4 py-6 text-center text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between sm:text-left">
-          <p>&copy; {new Date().getFullYear()} Cinemaze. Crafted for film devotees.</p>
+          <p>
+            &copy; {new Date().getFullYear()} Cinemaze. Crafted for film
+            devotees.
+          </p>
           <div className="flex justify-center gap-4 sm:justify-end">
             <a href="#movies" className="transition hover:text-foreground">
               Now Showing

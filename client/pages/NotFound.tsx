@@ -21,8 +21,9 @@ const NotFound = () => {
           Lost the reel?
         </h1>
         <p className="mt-4 max-w-lg text-sm text-muted-foreground">
-          We couldn’t find <span className="text-foreground">{location.pathname}</span>.
-          Try resurfacing on the homepage or explore our current showtimes below.
+          We couldn’t find{" "}
+          <span className="text-foreground">{location.pathname}</span>. Try
+          resurfacing on the homepage or explore our current showtimes below.
         </p>
         <div className="mt-8 flex flex-col gap-3 sm:flex-row">
           <Link

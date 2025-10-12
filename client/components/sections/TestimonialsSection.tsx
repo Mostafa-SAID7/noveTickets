@@ -13,8 +13,8 @@ export const TestimonialsSection = () => {
             Stories from the Cinemaze community.
           </h2>
           <p className="mt-4 text-base text-muted-foreground">
-            Critics, creators, and first-time guests share why our screenings feel
-            unforgettable.
+            Critics, creators, and first-time guests share why our screenings
+            feel unforgettable.
           </p>
         </div>
 

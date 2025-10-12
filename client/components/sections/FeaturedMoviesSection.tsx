@@ -34,7 +34,8 @@ export const FeaturedMoviesSection = () => {
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/10 to-transparent" />
                 <span className="absolute left-5 top-5 inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.3em] text-white/80">
-                  <Film className="size-3.5 text-brand-amber" /> {movie.releaseStatus}
+                  <Film className="size-3.5 text-brand-amber" />{" "}
+                  {movie.releaseStatus}
                 </span>
                 <div className="absolute bottom-5 left-5 inline-flex items-center gap-2 rounded-full border border-white/10 bg-background/80 px-3 py-1 text-xs font-medium text-muted-foreground">
                   <Star className="size-3.5 text-brand-amber" /> {movie.rating}
@@ -49,7 +50,9 @@ export const FeaturedMoviesSection = () => {
                   <p className="text-sm uppercase tracking-[0.35em] text-muted-foreground">
                     {movie.genre}
                   </p>
-                  <p className="text-sm text-muted-foreground/80">{movie.synopsis}</p>
+                  <p className="text-sm text-muted-foreground/80">
+                    {movie.synopsis}
+                  </p>
                 </div>
 
                 <div className="flex flex-wrap items-center justify-between gap-3 border-t border-white/10 pt-5 text-xs text-muted-foreground">

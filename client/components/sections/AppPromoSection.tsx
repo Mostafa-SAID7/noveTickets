@@ -13,8 +13,8 @@ export const AppPromoSection = () => {
           </h2>
           <p className="text-base text-muted-foreground">
             Browse premieres, preview auditoriums in 3D, and sync showtimes with
-            your crew in seconds. Our app unlocks lounge access and lightning-fast
-            entry via wallet passes.
+            your crew in seconds. Our app unlocks lounge access and
+            lightning-fast entry via wallet passes.
           </p>
           <div className="grid gap-3 text-sm text-foreground/80 sm:grid-cols-2">
             <div className="flex items-center gap-2 rounded-2xl border border-white/10 bg-white/5 px-4 py-3">
@@ -73,8 +73,8 @@ export const AppPromoSection = () => {
                 </div>
               </div>
               <div className="mt-6 rounded-2xl border border-white/10 bg-background/80 p-3 text-xs text-muted-foreground">
-                Present this pass at the door for lounge access 30 minutes before
-                showtime.
+                Present this pass at the door for lounge access 30 minutes
+                before showtime.
               </div>
             </div>
           </div>

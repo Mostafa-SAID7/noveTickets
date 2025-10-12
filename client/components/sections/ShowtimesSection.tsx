@@ -16,7 +16,8 @@ export const ShowtimesSection = () => {
             </h2>
             <p className="text-base text-muted-foreground">
               Choose from IMAX, Dolby Atmos, and private balcony screenings.
-              Your tickets sync instantly with the Cinemaze app and digital wallet.
+              Your tickets sync instantly with the Cinemaze app and digital
+              wallet.
             </p>
           </div>
           <div className="flex items-center gap-4 text-sm text-muted-foreground">
@@ -51,7 +52,9 @@ export const ShowtimesSection = () => {
                     </p>
                   </div>
                   <div className="text-right text-sm text-muted-foreground">
-                    <p className="font-semibold text-foreground">{showtime.date}</p>
+                    <p className="font-semibold text-foreground">
+                      {showtime.date}
+                    </p>
                     <p>Best seats from $21.50</p>
                   </div>
                 </div>
