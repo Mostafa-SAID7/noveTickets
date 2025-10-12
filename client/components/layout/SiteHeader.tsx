@@ -54,10 +54,9 @@ export const SiteHeader = () => {
             <a
               key={item.label}
               href={item.href}
-              className="relative text-muted-foreground transition-colors duration-200 hover:text-foreground"
+              className="relative text-muted-foreground transition-colors duration-200 hover:text-foreground after:absolute after:-bottom-1 after:left-0 after:h-[2px] after:w-full after:origin-left after:scale-x-0 after:bg-gradient-to-r after:from-brand-purple after:to-brand-magenta after:transition-transform hover:after:scale-x-100"
             >
               {item.label}
-              <span className="absolute -bottom-1 left-0 h-px w-full origin-left scale-x-0 bg-gradient-to-r from-brand-purple to-brand-magenta transition-transform duration-200 group-hover:scale-x-100" />
             </a>
           ))}
         </nav>
