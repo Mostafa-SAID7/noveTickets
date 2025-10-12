@@ -106,14 +106,17 @@ export const SiteFooter = () => {
         <div className="container flex flex-col gap-4 py-6 text-center text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between sm:text-left">
           <p>&copy; {new Date().getFullYear()} Cinemaze. Crafted for film devotees.</p>
           <div className="flex justify-center gap-4 sm:justify-end">
-            <a href="#privacy" className="transition hover:text-foreground">
-              Privacy
+            <a href="#movies" className="transition hover:text-foreground">
+              Now Showing
             </a>
-            <a href="#terms" className="transition hover:text-foreground">
-              Terms
+            <a href="#showtimes" className="transition hover:text-foreground">
+              Showtimes
             </a>
-            <a href="#support" className="transition hover:text-foreground">
-              Support
+            <a
+              href="mailto:hello@cinemaze.com"
+              className="transition hover:text-foreground"
+            >
+              Contact
             </a>
           </div>
         </div>
