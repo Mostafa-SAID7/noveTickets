@@ -63,10 +63,10 @@ export const SiteHeader = () => {
 
         <div className="hidden items-center gap-4 md:flex">
           <a
-            href="#memberships"
+            href="#showtimes"
             className="text-sm font-medium text-muted-foreground transition-colors duration-200 hover:text-foreground"
           >
-            Memberships
+            See Showtimes
           </a>
           <Button className="h-11 rounded-full bg-gradient-to-br from-brand-purple via-brand-magenta to-brand-aqua px-6 text-sm font-semibold uppercase tracking-wide text-background shadow-glow transition hover:via-brand-purple">
             Book Tickets
