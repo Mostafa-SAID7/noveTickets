@@ -57,6 +57,26 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        brand: {
+          purple: "hsl(var(--brand-purple))",
+          magenta: "hsl(var(--brand-magenta))",
+          aqua: "hsl(var(--brand-aqua))",
+          amber: "hsl(var(--brand-amber))",
+        },
+      },
+      fontFamily: {
+        sans: ["Manrope", "Inter", "system-ui", "sans-serif"],
+        display: ["Space Grotesk", "Manrope", "sans-serif"],
+      },
+      backgroundImage: {
+        "hero-glow":
+          "radial-gradient(120% 120% at 50% 0%, rgba(130, 76, 255, 0.45) 0%, rgba(12, 14, 32, 0) 65%)",
+        "ticket-grid":
+          "linear-gradient(135deg, rgba(147, 95, 255, 0.08) 0%, rgba(36, 43, 86, 0.02) 100%), linear-gradient(90deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px), linear-gradient(0deg, rgba(255, 255, 255, 0.05) 1px, transparent 1px)",
+      },
+      boxShadow: {
+        glow: "0 0 35px rgba(130, 76, 255, 0.35)",
+        card: "0 20px 45px -25px rgba(8, 13, 36, 0.65)",
       },
       borderRadius: {
         lg: "var(--radius)",
