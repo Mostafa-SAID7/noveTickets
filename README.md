@@ -1,6 +1,13 @@
 # 🎫 Neve Tickets
 
-A modern React frontend for ticket management with Vite, TypeScript, and Tailwind CSS.
+A modern, fast, and scalable React frontend application for comprehensive ticket management. Built with cutting-edge web technologies to deliver a smooth, responsive user experience for managing support tickets, issues, and task tracking.
+
+### Key Highlights
+- ⚡ **Lightning-fast performance** - Vite build tool with hot module replacement
+- 🎨 **Beautiful UI** - Tailwind CSS with Radix UI accessible components
+- 🔒 **Type-safe** - Full TypeScript support for reliable code
+- 📱 **Responsive Design** - Works seamlessly on desktop, tablet, and mobile
+- 🚀 **Production-ready** - Optimized build, ready to deploy anywhere
 
 ---
 
